@@ -1,0 +1,18 @@
+{
+  "name": "typescript_designpat_patterns",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "repository": "https://github.com/wuhaohao1234/typescript_designpat_patterns.git",
+  "author": "wuhaohao <1611499758@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "lint": "tslint --project tslint.json",
+    "start": "node dist/main.js"
+  },
+  "devDependencies": {
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000"
+  }
+}
